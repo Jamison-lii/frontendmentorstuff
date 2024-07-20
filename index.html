@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /*.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }*/
+   body{
+    width: 1440px;
+    background-color: hsl(212, 45%, 89%);
+   }
+   .totalContainer{
+    height:285px;
+    width: 175px;
+    background-color: white;
+   /* position: fixed;
+    left: 600px;
+    top: 180px;*/
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 200px;
+   }
+   .qrcode-container{
+    height: 165px;
+    width: 154px;
+   
+    margin-left: 10.5px;
+    margin-right: 10px;
+    
+   }
+   .qrcode-image{
+   /* object-fit: contain;*/
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    
+    /*margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;*/
+    border-radius: 5px;
+   }
+   .title-textbox{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right:10px;
+    font-size: 13px;
+    text-align:center;
+    line-height: 15px;
+    width: 150px;
+   }
+   .title-text{
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+   }
+   .description-textbox{
+    width: 140px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 10px;
+    margin-left: 15px;
+   }
+   .description-text{
+    color: hsl(216, 15%, 48%);
+    font-family: 'Outfit', sans-serif;
+   }
+  </style>
+</head>
+<body>
+<div class="totalContainer">
+  <div class="qrcode-container">
+    <img class="qrcode-image" src="images/image-qr-code.png">
+  </div>
+  <div class="title-textbox">
+   <p class="title-text">Improve your front-end skills by building projects</p> 
+  </div>
+  <div class="description-textbox">
+    <p class="description-text">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  </div>
+</div>
+ 
+</body>
+</html>
